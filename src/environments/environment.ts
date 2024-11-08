@@ -5,12 +5,13 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { myapikey } from "./mykeys";
 
 
 export const environment = {
   production: true,
   firebaseConfig :{
-    apiKey: "AIzaSyAJQL175PafxBKekFnAnms-fJJTtVZZaJg",
+    apiKey: myapikey,
     authDomain: "ionicchatejemplo.firebaseapp.com",
     projectId: "ionicchatejemplo",
     storageBucket: "ionicchatejemplo.firebasestorage.app",
